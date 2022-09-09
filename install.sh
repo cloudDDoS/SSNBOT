@@ -1,1 +1,1 @@
-cd /workspace/SSNBOT/ && killall python3 && python3 -m venv tutorial-env && source tutorial-env/bin/activate && sudo apt update && sudo apt-get install screen && pip3 install pytelegrambotapi && screen -S SSNBOT -X quit && screen -dmS SSNBOT python3 bot.py
+cd /workspace/SSNBOT/ && python3 -m venv tutorial-env && source tutorial-env/bin/activate && sudo apt update && sudo apt-get install screen && pip3 install pytelegrambotapi && screen -S SSNBOT -X quit && screen -dmS SSNBOT python3 bot.py
